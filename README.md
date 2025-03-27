@@ -12,16 +12,16 @@ Experiments conducted on **CIFAR-10** and **MNIST** datasets under IID and Non-I
 
 Six client selection strategies, including:
 
-- FedAvg (Random client selection - baseline)
+- Method 0 FedAvg (Random client selection - baseline)
 
-- Personalized Client Selection (Prioritizing underperforming clients)
+- Method 1 Personalized Client Selection (Prioritizing underperforming clients)
 
-- Dynamic Client Selection with Accuracy Threshold
+- Method 2 Dynamic Client Selection with Accuracy Threshold
 
-- Performance-Based Client Selection
+- Method 3 Performance-Based Client Selection
 
-- Top-K Client Selection
+- Method 4 Top-K Client Selection
 
-- Dynamic Client Selection with K and Alpha (α)
+- Method 5 Dynamic Client Selection with K and Alpha (α)
 
 Evaluation based on accuracy, loss, and communication rounds.
